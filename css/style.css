@@ -1,0 +1,27 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700");
+@import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
+
+/* Components */
+/* @import url("components/name_of_component.css"); */
+@import url("components/menu.css");
+@import url("components/navbar.css");
+@import url("components/products.css");
+
+body {
+  margin: 0;
+  margin-bottom: 100px;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  background-color: rgb(226, 221, 221);
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  height: 650px;
+  max-width: 1400px;
+  margin: 50px auto;
+  background-color: white;
+  display: flex;
+  gap: 5px;
+}
